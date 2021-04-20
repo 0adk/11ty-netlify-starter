@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Simple Eleventy SCSS Starter",
   "scripts": {
-    "watch:sass": "sass --no-source-map --watch src/assets/styles:dist/css",
+    "watch:sass": "sass --no-source-map --watch src/assets/styles:public/css",
     "watch:eleventy": "eleventy --serve",
-    "build:sass": "sass --no-source-map src/assets/styles:dist/css",
+    "build:sass": "sass --no-source-map src/assets/styles:public/css",
     "build:eleventy": "eleventy",
-    "clean": "del-cli dist",
-    "postbuild": "postcss dist/css/*.css -u autoprefixer cssnano -r",
+    "clean": "del-cli public",
+    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all clean build:sass --parallel watch:*",
     "build": "npm-run-all clean build:sass build:eleventy"
   },
