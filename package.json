@@ -1,7 +1,7 @@
 {
-  "name": "11ty-scss-starter",
+  "name": "11ty-netlify-starter",
   "version": "1.0.0",
-  "description": "Simple Eleventy SCSS Starter",
+  "description": "Simple Eleventy + Netlify CMS starter",
   "scripts": {
     "watch:sass": "sass --no-source-map --watch src/assets/styles:public/css",
     "watch:eleventy": "eleventy --serve",
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/1itvinka/11ty-scss-starter"
+    "url": "https://github.com/0adk/11ty-netlify-starter"
   },
-  "author": "Anastasiya Tyshkavets",
+  "author": "Ada Kolosa",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
