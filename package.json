@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Simple Eleventy + Netlify CMS starter",
   "scripts": {
-    "watch:sass": "sass --no-source-map --watch src/assets/styles:public/css",
+    "watch:sass": "sass --no-source-map --watch src/assets/styles:public/assets/css",
     "watch:eleventy": "eleventy --serve",
-    "build:sass": "sass --no-source-map src/assets/styles:public/css",
+    "build:sass": "sass --no-source-map src/assets/styles:public/assets/css",
     "build:eleventy": "eleventy",
     "clean": "del-cli public",
-    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r",
+    "postbuild": "postcss public/assets/css/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all clean build:sass --parallel watch:*",
     "build": "npm-run-all clean build:sass build:eleventy"
   },
