@@ -5,9 +5,9 @@ module.exports = function (config) {
 
   return {
     dir: {
-      input: 'src',
+      input: 'src/views',
       output: 'public',
-      data: "/data"
+      layouts: "_includes/layouts"
     },
   };
 };
