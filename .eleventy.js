@@ -7,7 +7,7 @@ module.exports = function (config) {
     dir: {
       input: 'src',
       output: 'public',
-      data: "../data"
+      data: "/data"
     },
   };
 };
