@@ -1,6 +1,16 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: $bg-color;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .container {

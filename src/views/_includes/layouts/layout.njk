@@ -13,9 +13,12 @@
     {% include "../components/header.njk" %}
     
     <main class="container content">
+      <h1>{{ heading }}</h1>
       {{ content | safe }}
     </main>
 
+    {% include "../components/footer.njk" %}
+    
     <script type="text/javascript" src="{{ '/assets/js/main.js' | url }}"></script>
     <script>
     if (window.netlifyIdentity) {

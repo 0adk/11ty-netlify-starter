@@ -1,5 +1,5 @@
 ---
 layout: blog.njk
 title: Blog
+heading: Blog posts
 ---
-<h1>Posts:</h1>
