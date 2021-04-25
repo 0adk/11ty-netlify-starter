@@ -17,10 +17,10 @@ collections:
       - {label: "Date", name: "date", widget: "date", default: ""}
       - {label: "Post Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
-  - name: "pages"
-    label: "Pages"
-    delete: false
-    files:
+ - name: "pages"
+   label: "Pages"
+   delete: false
+   files:
       - label: "Home"
         name: "home"
         file: "src/views/index.md"
