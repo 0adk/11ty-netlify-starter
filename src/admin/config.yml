@@ -17,3 +17,35 @@ collections:
       - {label: "Date", name: "date", widget: "date", default: ""}
       - {label: "Post Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
+  - name: "pages"
+    label: "Pages"
+    delete: false
+    files:
+      - label: "Home"
+        name: "home"
+        file: "src/views/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layout.njk"}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+      - label: "About"
+        name: "about"
+        file: "src/views/about.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layout.njk"}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+      - label: "Blog"
+        name: "blog"
+        file: "src/views/blog.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "blog.njk"}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+      - label: "404"
+        name: "404"
+        file: "src/views/404.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layout.njk"}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}

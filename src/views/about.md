@@ -1,5 +1,5 @@
 ---
 layout: layout.njk
-permalink: /about/
+title: About
 ---
 <p>It's all about us!</p>
