@@ -1,25 +1,40 @@
-# Eleventy + Netlify CMS starter
+# Eleventy + Netlify CMS blog starter
 
-- files splited into seperate folders
-- orderly structure
+- with blog posts adding function and simple pages content managment (.md files)
+- 404 handle
 - nunjucks templates + scss & js
 
-## 🚀 Quick Start
+## Start development
 
 1. Install npm packages
 
-```sh
-npm install
-```
+	`npm install`
 
 2.  Start developing
 
-```sh
-npm run start
-```
+	`npm run start`
 
 Your site is now running at http://localhost:8080.
 
+## Deploy with Netlify
 
-Created based on [Anastasiya Tyshkavets](https://anastasiya.dev/) [Eleventy SCSS Starter](https://github.com/1itvinka/11ty-scss-starter) and customized to Netlify CMS needs.
-Feel free to use it and don't fogret leaving a ⭐ !Thanks!
+Click the button below to deploy a new site from this starter on Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/0adk/11ty-netlify-cms-starter&stack=cms)
+
+**OR**
+
+Follow this [Step-by-Step Guide](http://https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/ "Step-by-Step Guide") on how to do it.
+
+At step 5 when configuring your settings set the following:
+
+Build command: `npm run build`
+
+Publish directory: `public`
+
+
+
+## Summary
+
+Feel free to use it and don't fogret leaving a ⭐ !
+Thanks!
