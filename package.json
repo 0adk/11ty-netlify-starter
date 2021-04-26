@@ -1,5 +1,7 @@
 {
   "name": "11ty-netlify-starter",
+  "author": "Ada Kolosa",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "Simple Eleventy + Netlify CMS starter",
   "scripts": {
@@ -16,8 +18,6 @@
     "type": "git",
     "url": "https://github.com/0adk/11ty-netlify-starter"
   },
-  "author": "Ada Kolosa",
-  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "autoprefixer": "^10.0.4",
