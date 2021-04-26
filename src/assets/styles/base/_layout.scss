@@ -14,10 +14,10 @@ main {
 }
 
 .container {
+  width: 100%;
   max-width: $container-max-width;
-  min-width: $min-width;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 0 auto;
 }
 
