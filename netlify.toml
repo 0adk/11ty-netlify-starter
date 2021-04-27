@@ -1,2 +1,4 @@
-[dev]
-  publish = "public"
+[build]
+  base = "/"
+  publish = “public”
+  command = “npm run build”
