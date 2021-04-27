@@ -20,7 +20,7 @@ Your site is now running at http://localhost:8080.
 
 Click the button below to deploy a new site from this starter on Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/0adk/11ty-netlify-cms-starter&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/0adk/11ty-netlify-starter&stack=cms)
 
 **OR**
 
