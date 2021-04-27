@@ -13,7 +13,7 @@ exports.default = function (done) {
           output: {
             filename: 'main.js'
           },
-          watch: true
+          // watch: true
         })
       )
       .pipe(dest("./public/assets/scripts"))
