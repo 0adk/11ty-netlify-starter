@@ -12,8 +12,8 @@
     "build:scripts": "gulp",
     "clean": "del-cli public",
     "postbuild": "postcss public/assets/css/*.css -u autoprefixer cssnano -r",
-    "start": "npm-run-all clean build:scripts build:sass --parallel watch:*",
-    "build": "npm-run-all clean build:scripts build:sass build:eleventy"
+    "start": "npm-run-all clean build:sass --parallel watch:* build:scripts",
+    "build": "npm-run-all clean build:sass build:eleventy  build:scripts"
   },
   "repository": {
     "type": "git",

@@ -12,7 +12,8 @@ exports.default = function (done) {
           mode: "production",
           output: {
             filename: 'main.js'
-          }
+          },
+          watch: true
         })
       )
       .pipe(dest("./public/assets/scripts"))
