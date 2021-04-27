@@ -2,7 +2,9 @@
 
 - with blog posts adding function and simple pages content managment (.md files)
 - 404 handle
-- nunjucks templates + scss & js
+- nunjucks templates
+- scss
+- gulp + webpack javascript bundling
 
 ## Start development
 
