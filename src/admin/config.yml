@@ -27,6 +27,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "layout.njk"}
           - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
           - {label: Content, name: body, widget: markdown}
       - label: "About"
         name: "about"
@@ -34,6 +35,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "layout.njk"}
           - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
           - {label: Content, name: body, widget: markdown}
       - label: "Blog"
         name: "blog"
@@ -41,4 +43,5 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "blog.njk"}
           - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
           - {label: Content, name: body, widget: markdown}
