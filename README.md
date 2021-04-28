@@ -33,8 +33,9 @@ At step 5 when configuring your settings set the following:
 Build command: `npm run build`
 
 Publish directory: `public`
+## Content management
 
-
+If you want to manage content of your page, type "/admin" at the end of your page's root url. After loggin in you will be able to change content of pages like heading, title or  body and add new blog posts.
 
 ## Summary
 
